@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+		.navbar-minimal{
+			max-height: 100%;
+		}
+		.navbar-minimal.open > .navbar-menu {
+			padding-bottom:50px;
+		}
+
+ .wrapper_background .logo {
+	margin: 5px;
+	display: block;
+	}
+	.wrapper_background .logo h1{
+		font-size: 28px;
+	}
+	.wrapper_background .say_hello  {
+	margin-top: 200px;
+	display: block;
+	}
+	.wrapper_background .say_hello p {
+		font-size: 21px;
+	}
+	.wrapper_background .say_hello h3{
+		font-size: 30px;
+	}
+	.wrapper_background .say_hello a{
+		margin: 53px auto 70px;
+	}
+
+	/*VIDEO BLOCK*/
+
+	.main_video_container .video_content p{
+		font-size: 18px;
+	}	 
+	.main_video_container .box_video {
+		margin: 0px auto 70px;
+		display: block; 
+		max-width: 100%;
+	}
+	/*SERVICE BLOCK*/
+	.line{
+		display: none;
+	}
+	.our_services li a {
+		border: 2px solid rgb(27,124,224);
+		margin-bottom: 20px;
+
+	}
+	.our_services li a:before {
+		display: none;	
+	}
+	.our_services .carousel {
+		padding: 0 15px;
+	}
+	.our_services .carousel .fullscreen_btn {
+		display: none;
+	}
+
+	/*OUR TEAM*/
+
+	.our_team_main_block .our_team_content {
+		padding:0 15px;
+	}
+	.our_team_main_block .our_team_content p {
+		font-size: 21px;
+	}
+	.team_png-unit{
+		display: none;
+	}
+	.button_content{
+		display: none;
+	}
+	.what_we_do {
+		padding-top: 20px;
+	}
+}
+
+
+
+@media(max-width: 1050px) and (min-width: 768px){
+	/*SERVICE BLOCK*/
+
+	.our_team_main_block .our_team_content {
+		display: none;
+		padding:0 15px;
+	}
+	.our_team_main_block .our_team_content p {
+		font-size: 21px;
+	}
+	.team_png-unit{
+		display: none;
+	}
+	.button_content{
+		display: none;
+	}
+
+	.what_we_do {
+		padding-top: 100px;
+	}
+	.what_we_do .we_do_box {
+
+		padding: 5px;
+	}
+}
